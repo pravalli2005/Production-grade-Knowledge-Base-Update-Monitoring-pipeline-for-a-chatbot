@@ -1,0 +1,37 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the company return policy?",
+    "expected_answer": "Customers can return unused items within 30 days of purchase with the original receipt for a full refund.",
+    "ground_truth_context_keywords": ["return policy", "30 days", "full refund", "original receipt"],
+    "required_topics": ["return", "30 days", "receipt"]
+  },
+  {
+    "id": "q2",
+    "question": "How do I reset my password?",
+    "expected_answer": "Navigate to the login page, click 'Forgot Password', enter your registered email address, and follow the link sent to your inbox.",
+    "ground_truth_context_keywords": ["reset", "password", "forgot password", "email"],
+    "required_topics": ["reset password", "forgot password", "email link"]
+  },
+  {
+    "id": "q3",
+    "question": "What are your customer support working hours?",
+    "expected_answer": "Customer support is available 24/7 via live chat and email, and phone support runs Monday through Friday 8am to 8pm EST.",
+    "ground_truth_context_keywords": ["customer support", "24/7", "live chat", "phone support", "Monday through Friday"],
+    "required_topics": ["24/7", "support", "live chat"]
+  },
+  {
+    "id": "q4",
+    "question": "Do you offer international shipping?",
+    "expected_answer": "Yes, we ship to over 65 countries worldwide. International shipping typically takes 7 to 14 business days.",
+    "ground_truth_context_keywords": ["international shipping", "65 countries", "business days", "customs"],
+    "required_topics": ["international", "shipping", "65 countries"]
+  },
+  {
+    "id": "q5",
+    "question": "What payment methods are supported?",
+    "expected_answer": "We accept major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, and Google Pay.",
+    "ground_truth_context_keywords": ["payment methods", "Visa", "MasterCard", "PayPal", "Apple Pay"],
+    "required_topics": ["payment", "credit cards", "PayPal"]
+  }
+]
